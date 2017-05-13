@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notes</title>
+
+		<script src="https://use.fontawesome.com/1b5f77b573.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-database.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Include stylesheet -->
+		<link href="https://cdn.quilljs.com/1.2.4/quill.snow.css" rel="stylesheet">
+		<!-- Include the Quill library -->
+		<script src="https://cdn.quilljs.com/1.2.4/quill.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/notepadbook.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-social.css">
+</head>
+<body>
+	<div id="header-container">
+		<div id="logo">
+			<img height="35" src="assets/img/notepadbook.png" />
+		</div>
+
+		<div id="logotext">
+			<strong>NOTE</strong>PAD<strong>BOOK</strong>
+		</div>
+	</div>
+
+
+
+	<div class="container-fluid page-header text-center">
+		<button type="button" class="btn btn-primary btn-social btn-facebook FBfeed"><span class="fa fa-facebook"></span> Get data</button>
+		<button type="button" class="btn btn-primary btn-social btn-facebook FBlogin" ><span class="fa fa-facebook"></span> Log in to the facebook</button>
+		<button type="button" class="btn btn-primary btn-social btn-facebook FBlogout"><span class="fa fa-facebook"></span> Log out</button>
+		<h1>Main Note Page</h1>
+		<div class="userCtrl">
+			<button type="submit" class="btn btn-default signOut">Sign Out</button>
+
+			<div class="userName"></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 ">
+				<!-- Create the toolbar container -->
+				<div id="editor">
+				</div>
+				<button type="submit" class="btn btn-success save">Save</button>
+
+				<div style="margin-top: 40px; padding: 10px; background-color: rgba(255,255,255,0.2);">
+				<div class="textContainer"></div>
+				</div>
+			</div>
+		<div class="col-md-6 ">
+		<div class="header-container">
+		<h3>Facebook Feed</h3>
+			<div class="facebookFeed">
+				
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<div id="logotext">
+			COPYRIGHT 2017 <strong>NOTE</strong>PAD<strong>BOOK</strong> | IRVINE, CA
+		</div>
+	</div>
+
+	<script type="text/javascript" src="assets/js/notepadbook.js"></script>
+</body>
+</html>

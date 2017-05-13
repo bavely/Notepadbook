@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WELCOME TO NOTE|PAD|BOOK</title>
+
+	<!-- FIREBASE JAVASCRIPT -->
+	<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase-database.js"></script>
+
+	<!-- QUILL JAVASCRIPT -->
+	<script src="https://cdn.quilljs.com/1.0.0/quill.js"></script>
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.quilljs.com/1.0.0/quill.snow.css">
+	<link rel="stylesheet" href="https://cdn.quilljs.com/1.2.4/quill.core.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/notepadbook.css">
+
+</head>
+		<body>
+
+			<div id="header-container">
+				<div id="logo">
+					<img height="35" src="assets/img/notepadbook.png" />
+				</div>
+
+				<div id="logotext">
+					<strong>NOTE</strong>PAD<strong>BOOK</strong>
+				</div>
+			</div>
+
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<!-- SIGN IN FORM -->
+						<div class="container-fluid page-header">
+							<h1>SIGN IN HERE:</h1>
+						</div>
+
+
+						<form class="form-inline">
+
+							<div class="form-group">
+								<label class="sr-only" for="exampleInputEmail3">Email Address:</label>
+		    				<input type="email" class="form-control inemailTest" id="exampleInputEmail3" placeholder="Email">
+							</div>
+
+							<div class="form-group">
+								<label class="sr-only" for="exampleInputPassword3">Password:</label>
+		    				<input type="password" class="form-control inpassTest" id="exampleInputPassword3" placeholder="Password">
+							</div>
+
+							<div class="sdiv">
+		  				<button type="submit" class="btn btn-default signinBtn">SIGN IN</button>
+							</div>
+
+							<div class="sdiv">
+								<label>
+									<input type="checkbox"> Remember Me
+								</label>
+							</div>
+
+							<div class="sdiv">
+		  					<a class="fP" href="fP.html">Forget My Password</a>
+							</div>
+
+
+						</form>
+					</div>
+				</div>
+				<div class="message"></div>
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+
+						<!-- SIGNUP FORM -->
+						<h1>SIGNUP HERE</h1>
+						<form>
+		  				<div class="form-group">
+		    				<label for="exampleInputEmail1">Email Address:</label>
+		    				<input type="email" class="form-control upTestemail" id="exampleInputEmail1" placeholder="Email">
+		  				</div>
+		    			<div class="form-group">
+		    				<label for="userName1">User Name:</label>
+		    				<input type="text" class="form-control upTestname" id="userName1" placeholder="User Name">
+		  				</div>
+		  				<div class="form-group">
+		    				<label for="exampleInputPassword1">Password:</label>
+		    				<input type="password" class="form-control upTestpass" id="exampleInputPassword1" placeholder="Password">
+		  				</div>
+		  				<button type="submit" class="btn btn-default signupBtn">SUBMIT</button>
+						</form>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- NOTEPADBOOK JAVASCRIPT -->
+			<script type="text/javascript" src="assets/js/notepadbook.js"></script>
+		</body>
+		<div id="footer">
+			<div id="logotext">
+				COPYRIGHT 2017 <strong>NOTE</strong>PAD<strong>BOOK</strong> | IRVINE, CA
+			</div>
+		</div>
+</html>
