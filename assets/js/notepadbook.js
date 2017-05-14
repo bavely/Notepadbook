@@ -242,7 +242,7 @@ $(document).ready(function () {
 
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '828464373969567',
+      appId      : '104709750101821',
       cookie     : true,
       xfbml      : true,
       version    : 'v2.9'
