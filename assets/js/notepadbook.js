@@ -245,7 +245,7 @@ $(document).ready(function () {
       appId      : '104709750101821',
       cookie     : true,
       xfbml      : true,
-      version    : 'v2.9'
+      version    : 'v2.7'
     });
     FB.AppEvents.logPageView(); 
   };
