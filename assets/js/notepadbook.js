@@ -271,7 +271,8 @@ $(document).ready(function () {
             $(".FBlogout").show();
         } else {
           console.log("not loggedin");
-          $(".FBlogout").hide();
+          	$(".FBlogin").hide();
+            $(".FBlogout").show();
         }
     }, {scope: 'publish_actions, user_posts'});
   });
