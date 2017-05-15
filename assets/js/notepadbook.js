@@ -267,6 +267,8 @@ $(document).ready(function () {
             $(".FBlogout").show();
         } else if (response.status === 'not_authorized') {
           console.log("not loggedin");
+          	$(".FBlogin").hide();
+            $(".FBlogout").show();
         } else {
           console.log("not loggedin");
           $(".FBlogout").hide();
