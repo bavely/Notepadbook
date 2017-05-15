@@ -6,21 +6,17 @@ html, body {
 
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-.facebookFeed{
 
-	height: 100px;
-    background-color: #F1F1F2;
-    padding: 10px;
-    z-index: 0;
+.save{
 
-
+	margin-top: 5px;
 }
 
-h3 {
+h4 {
 
-border-bottom: solid 2px;
-padding-bottom:5px; 
-    margin-top: -5px;
+	border-bottom: solid 1px;
+	padding-bottom:5px; 
+    margin-top: -1px;
 }
 
 
@@ -28,7 +24,7 @@ padding-bottom:5px;
 	font-size: 20px;
 	float: inherit;
 	margin-top: 4px;
- font-family: Raleway, Helvetica, Arial, Sans-Serif;
+ 	font-family: Raleway, Helvetica, Arial, Sans-Serif;
 }
 
 
