@@ -9,7 +9,7 @@ Note pad book is an application user can use to save daily notes which can acces
 1- Create an account for Notepadbook.
 2- Login using your new Notepadbook account.
 3- Write your notes in the text editor to save.
-4- Or save your posts from Facebook by logging in to Facebook by pressing "Login to the Facebook".
+4- save your posts from Facebook if you like by logging in to Facebook by pressing "Login to the Facebook".
 5- Press "Get data" to get your Facebook posts.
 6- Press Save to save any post you like.
 
